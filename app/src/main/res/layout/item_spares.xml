@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+    <TextView
+            android:id="@+id/name"
+            style="@style/TextItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@drawable/bg_spares_selected"
+            tools:text="Свечи"/>
+
+    <FrameLayout
+            android:id="@+id/originContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/item_padding"
+            android:paddingEnd="@dimen/item_padding"
+    >
+
+        <TextView
+                android:id="@+id/costOrigin"
+                style="@style/TextItem"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/subitem_height"
+                android:paddingEnd="48dp"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorAccent"
+                tools:text="Оригинал за 1200 рублей"
+        />
+
+        <CheckBox
+                android:id="@+id/originCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/subitem_height"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/item_padding"
+                android:theme="@style/MyCheckBox"
+        />
+
+    </FrameLayout>
+
+    <FrameLayout
+            android:id="@+id/replacementContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/item_padding"
+            android:paddingEnd="@dimen/item_padding"
+    >
+
+        <TextView
+                android:id="@+id/costReplacement"
+                style="@style/TextItem"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/subitem_height"
+                android:paddingEnd="48dp"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorAccent"
+                tools:text="Заменитель за 900 рублей; Заменитель за 900 рублей"
+        />
+
+        <CheckBox
+                android:id="@+id/replacementCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/subitem_height"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/item_padding"
+                android:theme="@style/MyCheckBox"
+        />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AutoKit Client</string>
+    <string name="url">https://google.com<!--http://192.168.1.3--></string>
+    <string name="origin_text_fmt">Оригинал \nза %1$s (%2$s)</string>
+    <string name="replacement_text_fmt">Заменитель (%1$s) \nза %2$s (%3$s)</string>
+    <string name="final_msg">Вы благополучно оставили заявку. Наш оператор вам перезвонит в течение 24 часов.</string>
+    <string name="offers_msg">В настоящее время Мастер не предлагает никакиx услуг</string>
+
+    <plurals name="summary_cost_fmt">
+        <item quantity="zero">%1$s рублей</item>
+        <item quantity="one">%1$s рубль</item>
+        <item quantity="two">%1$s рубля</item>
+        <item quantity="few">%1$s рублей</item>
+        <item quantity="many">%1$s рублей</item>
+        <item quantity="other">%1$s рублей</item>
+    </plurals>
+
+    <plurals name="summary_time_fmt">
+        <item quantity="zero">%1$s дней</item>
+        <item quantity="one">%1$s день</item>
+        <item quantity="two">%1$s дня</item>
+        <item quantity="few">%1$s дней</item>
+        <item quantity="many">%1$s дней</item>
+        <item quantity="other">%1$s дней</item>
+    </plurals>
+
+</resources>
